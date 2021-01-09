@@ -7,6 +7,9 @@ verify_ssl = true
 
 [packages]
 pmum = {editable = true, path = "."}
+jupyterlab = "*"
+jedi = "==0.17.2"
+pytest = "*"
 
 [requires]
 python_version = "3.8"
